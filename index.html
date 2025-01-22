@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-3">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-3">
       <div class="container">
         <a class="navbar-brand" href="#">
           <h2>Ayodeji Dennis<span class="text-primary"> Oluwatunla</span></h2>
@@ -75,122 +75,150 @@
           </ul>
         </div>
       </div>
+    </nav> -->
+
+    <nav
+      class="navbar navbar-expand-lg bg-black sticky-top py-3 border-bottom border-success">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand text-success" href="#">
+          <h2>Ayodeji Dennis<span class="text-light"> Oluwatunla</span></h2>
+        </a>
+
+        <!-- Navbar Toggle Button -->
+        <button
+          class="navbar-toggler border border-success text-success"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                href="#home"
+                aria-label="Go to Home section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                href="#about"
+                aria-label="Go to About section"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                href="#skills"
+                aria-label="Go to Skills section"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                href="#projects"
+                aria-label="Go to Projects section"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success"
+                href="#contacts"
+                aria-label="Go to Contact section"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Main Section -->
-    <section class="main-container py-5 bg-dark" id="home">
+    <section class="main-container py-5 bg-black" id="home">
       <div class="container">
         <div class="row align-items-center">
+          <!-- Image Section -->
           <div class="col-md-6 mb-4 mb-md-0" data-aos="zoom-in">
-            <img
-              src="/img/dennis - Copy.jpg"
-              alt="Ayodeji Dennis"
-              style="width: 75%; max-width: 300px"
-              class="img-fluid rounded-circle shadow-lg mx-auto d-block" />
-          </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <h1 class="text-secondary">
-              Hi I'm <span class="text-primary">Ayodeji</span>
-            </h1>
-            <div class="typewriter text-secondary my-3">
-              I'm a <span class="typewriter-text text-white"></span
-              ><label for="">|</label>
+            <div
+              class="position-relative mx-auto"
+              style="width: 75%; max-width: 300px">
+              <!-- Green Border -->
+              <img
+                src="/img/dennis - Copy.jpg"
+                alt="Ayodeji Dennis"
+                class="img-fluid rounded-circle shadow-lg border border-success border-5" />
             </div>
-            <p class="text-secondary">
-              With over 2+ years of experience in web and software development,
-              I am passionate about building scalable and redemptive products
-              and innovations, leveraging my skills in full-stack development
-              using the MERN stack. I enjoy collaborating with teams and
-              innovating cutting-edge solutions in the tech space.
+          </div>
+
+          <!-- Text Section -->
+          <div class="col-md-6" data-aos="fade-left">
+            <h1 class="text-success">
+              Hi, I'm <span class="text-light">Ayodeji</span>
+            </h1>
+            <div class="typewriter my-3">
+              <p class="text-success">
+                I'm a
+                <span class="typewriter-text text-light"
+                  >Software Engineer</span
+                >
+              </p>
+            </div>
+            <p class="text-success">
+              I am an entry-level software engineer with over 2 years of
+              experience in web and software development. I am passionate about
+              building scalable and impactful products, leveraging my skills in
+              full-stack development with the MERN stack. As an enthusiast of
+              eco-friendly and green software systems, I am committed to
+              creating sustainable and innovative technological solutions.
             </p>
+            <!-- Social Links -->
             <div
               class="social-links d-flex justify-content-center justify-content-md-start flex-wrap mt-4">
               <a
                 href="https://github.com/luwaden"
-                class="text-secondary px-3 mb-3"
-                aria-label="Visit my GitHub profile"
-                ><i class="fa-brands fa-github fa-2x"></i
-              ></a>
+                class="text-success px-3 mb-3"
+                aria-label="GitHub">
+                <i class="fa-brands fa-github fa-2x"></i>
+              </a>
               <a
                 href="https://facebook.com/dennis-oluwatunla"
-                class="text-secondary px-3"
-                aria-label="Visit my Facebook profile"
-                ><i class="fa-brands fa-facebook fa-2x"></i
-              ></a>
+                class="text-success px-3"
+                aria-label="Facebook">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+              </a>
               <a
                 href="https://www.linkedin.com/in/ayodeji-dennis-oluwatunla/"
-                class="text-secondary px-3"
-                aria-label="Visit my LinkedIn profile"
-                ><i class="fa-brands fa-linkedin fa-2x"></i
-              ></a>
+                class="text-success px-3"
+                aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+              </a>
               <a
                 href="https://x.com/Luwaden1"
-                aria-label="Visit my X profile"
-                class="text-secondary px-3"
-                ><i class="fa-brands fa-twitter fa-2x"></i
-              ></a>
+                class="text-success px-3"
+                aria-label="Twitter">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+              </a>
             </div>
+            <!-- Call to Action Button -->
             <a href="wa.me/+2349125146601">
               <button
-                class="btn btn-primary mt-4"
+                class="btn btn-success mt-4"
                 aria-label="Hire me through WhatsApp">
                 Hire me
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section
-      class="about py-5 bg-secondary"
-      id="about"
-      aria-label="know more about me">
-      <div class="container">
-        <div class="row mb-4" data-aos="fade-up">
-          <div class="col text-center">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-            <img
-              src="/img/dennis - Copy.jpg"
-              alt="Ayodeji Dennis"
-              style="width: 50%; max-width: 250px"
-              class="img-fluid rounded-circle shadow-lg mx-auto d-block" />
-          </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <p>
-              I am <span class="text-white">Ayodeji Dennis</span>, an entry
-              level Software Engineer, and program manager with over two years
-              of experience in software development and five years of experience
-              in program management. My expertise lies in building robust
-              backend systems, designing responsive front-end interfaces, and
-              managing large-scale projects with a focus on results.
-            </p>
-            <p>
-              As a versatile program manager, I have successfully led and
-              anchored various programs across multiple states in Nigeria. I
-              have collaborated with diverse technical and program teams,
-              contributing to the success of numerous initiatives.
-            </p>
-            <ul>
-              <li><strong>Experience:</strong> 2+ years</li>
-              <li><strong>Specialty:</strong> Full-Stack Development</li>
-              <li><strong>Location:</strong> Nigeria</li>
-              <li>
-                <strong>Email:</strong>
-                <a class="text-white" href="mailto:oluwatunlaayodeji@gmail.com"
-                  >oluwatunlaayodeji@gmail.com</a
-                >
-              </li>
-              <li><strong>Phone:</strong> +2348163283020</li>
-            </ul>
-            <button class="btn btn-light mt-3">
-              <p><a href="#" class="text-dark">View Projects</a></p>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -198,48 +226,89 @@
 
     <!-- Skills Section -->
     <section
-      class="skills py-5 text-secondary"
+      class="skills py-5 bg-black text-success"
       id="skills"
-      aria-label="know my core skills">
+      aria-label="Know my core skills">
       <div class="container">
+        <!-- Section Heading -->
         <div class="row mb-4" data-aos="fade-up">
           <div class="col text-center">
             <h2>My Skills</h2>
           </div>
         </div>
+
+        <!-- Skills Description -->
         <div class="row">
           <div class="col-md-6" data-aos="fade-right">
             <p>
               I bring advanced knowledge in multiple programming languages and
-              frameworks. Below are my core skills with proficiency percentages.
+              frameworks. Below are my core skills, represented by proficiency
+              levels.
             </p>
           </div>
+
+          <!-- Skills Progress Bars -->
           <div class="col-md-6">
-            <div class="row text-center text-md-start">
-              <div class="col-6 col-md-6 mb-3" data-aos="fade-up">
-                <h5>React</h5>
-                <p>80%</p>
+            <div class="row gy-3">
+              <!-- React -->
+              <div class="col-12" data-aos="fade-up">
+                <h5 class="mb-1">React</h5>
+                <div class="progress" style="height: 20px">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    80%
+                  </div>
+                </div>
               </div>
-              <div
-                class="col-6 col-md-6 mb-3"
-                data-aos="fade-up"
-                data-aos-delay="100">
-                <h5>Node.js</h5>
-                <p>75%</p>
+              <!-- Node.js -->
+              <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                <h5 class="mb-1">Node.js</h5>
+                <div class="progress" style="height: 20px">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    75%
+                  </div>
+                </div>
               </div>
-              <div
-                class="col-6 col-md-6 mb-3"
-                data-aos="fade-up"
-                data-aos-delay="200">
-                <h5>TypeScript</h5>
-                <p>70%</p>
+              <!-- TypeScript -->
+              <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+                <h5 class="mb-1">TypeScript</h5>
+                <div class="progress" style="height: 20px">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    70%
+                  </div>
+                </div>
               </div>
-              <div
-                class="col-6 col-md-6 mb-3"
-                data-aos="fade-up"
-                data-aos-delay="300">
-                <h5>MongoDB</h5>
-                <p>60%</p>
+              <!-- MongoDB -->
+              <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+                <h5 class="mb-1">MongoDB</h5>
+                <div class="progress" style="height: 20px">
+                  <div
+                    class="progress-bar bg-success"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100">
+                    80%
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -247,136 +316,254 @@
       </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Project section -->
     <section
-      class="project py-5 bg-dark"
+      class="project py-5 bg-black"
       id="projects"
       aria-label="View my projects">
       <div class="container">
-        <div class="row mb-4" data-aos="fade-up">
-          <div class="col text-center text-light">
-            <h2>Projects</h2>
+        <!-- Section Heading -->
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="text-success">Projects</h2>
+            <p class="text-light">
+              Explore some of the projects I've worked on, leveraging modern
+              technologies to build impactful solutions.
+            </p>
           </div>
         </div>
+
+        <!-- Projects Grid -->
         <div class="row g-4">
-          <div class="col-md-6" data-aos="fade-right">
-            <div class="box p-4 mb-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">Note App</h5>
-              <p>
-                Designed and implemented an end-to-end note-taking app using the
-                MERN stack (MongoDB, Express, React, Node.js) with TypeScript.
-                Built a responsive and intuitive user interface using pure CSS.
-                Developed RESTful APIs for CRUD operations and ensured secure
-                data handling. Gained expertise in full-stack development, state
-                management, and TypeScript best practices.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <div class="box p-4 mb-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">Movie App</h5>
-              <p>
-                Designed and developed a dynamic movie app using React,
-                TypeScript, and CSS. Integrated a third-party API for real-time
-                backend data, enabling seamless movie search and display
-                features.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6" data-aos="fade-right">
-            <div class="box p-4 mb-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">Heroes Game App</h5>
-              <p>
-                I contributed to the Hero Games Intuitive project as a frontend
-                developer, focusing on building a highly interactive leaderboard
-                page using React, TypeScript. This feature enabled users to view
-                and interact with dynamic rankings, enhancing user engagement
-                with the game’s ecosystem.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <div class="box p-4 mb-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">E-commerce App</h5>
-              <p>
-                I built this end-to-end e-commerce platform using the MERN stack
-                (MongoDB, Express.js, React, Node.js) with TypeScript for type
-                safety and scalability. The project showcases a modern and
-                responsive design powered by Bootstrap and React Query for
-                efficient data fetching and state synchronization. This platform
-                offers a seamless shopping experience for users and an intuitive
-                admin dashboard for managing operations.
-              </p>
-            </div>
+          <!-- Note App -->
+          <div class="col-md-6 d-flex">
+            <a href="note-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Note App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Note App</h5>
+                    <ul class="mb-0">
+                      <li>End-to-end MERN stack app with TypeScript.</li>
+                      <li>Responsive UI using pure CSS.</li>
+                      <li>Secure CRUD operations with RESTful APIs.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
 
-          <div class="col-md-6" data-aos="fade-left">
-            <div class="box p-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">Bootcamp Landing Page</h5>
-              <p>
-                Designed and developed a responsive landing page for a coding
-                bootcamp using HTML, CSS, and Bootstrap. The page highlights key
-                program features, testimonials, and an integrated form for user
-                inquiries, ensuring high conversion rates and user engagement.
-              </p>
-            </div>
+          <!-- Movie App -->
+          <div class="col-md-6 d-flex">
+            <a href="movie-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Movie App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Movie App</h5>
+                    <ul class="mb-0">
+                      <li>Built with React and TypeScript.</li>
+                      <li>Integrated real-time API for movie data.</li>
+                      <li>Dynamic search and display features.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
 
-          <div class="col-md-6" data-aos="fade-right">
-            <div class="box p-4 shadow bg-light h-100 overflow-auto">
-              <h5 class="text-primary">Quiz App</h5>
-              <p>
-                Developed an interactive Quiz App using vanilla javascript,
-                allowing users to test their knowledge with timed quizzes and
-                real-time score updates. The app features a clean UI with
-                progress tracking and custom themes for personalization.
-              </p>
-            </div>
+          <!-- Heroes Game App -->
+          <div class="col-md-6 d-flex">
+            <a href="heroes-game-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Heroes Game App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Heroes Game App</h5>
+                    <ul class="mb-0">
+                      <li>Interactive leaderboard with React and TS.</li>
+                      <li>Dynamic rankings to boost engagement.</li>
+                      <li>Enhanced user interaction for games.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- E-commerce App -->
+          <div class="col-md-6 d-flex">
+            <a href="ecommerce-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="E-commerce App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>E-commerce App</h5>
+                    <ul class="mb-0">
+                      <li>Scalable MERN stack platform with TS.</li>
+                      <li>Modern UI using Bootstrap.</li>
+                      <li>Admin dashboard for management.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Bootcamp Landing Page -->
+          <div class="col-md-6 d-flex">
+            <a href="bootcamp-landingpage.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Bootcamp Landing Page Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Bootcamp Landing Page</h5>
+                    <ul class="mb-0">
+                      <li>Responsive design with Bootstrap.</li>
+                      <li>Key features and testimonials highlighted.</li>
+                      <li>Integrated inquiry form for conversions.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Quiz App -->
+          <div class="col-md-6 d-flex">
+            <a href="quiz-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Quiz App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Quiz App</h5>
+                    <ul class="mb-0">
+                      <li>Interactive quizzes with real-time scoring.</li>
+                      <li>Clean UI with progress tracking.</li>
+                      <li>Customizable themes for users.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact py-5 text-light" id="contacts">
-      <div class="container bg-secondary">
+    <section class="contact py-5 bg-black text-success" id="contacts">
+      <div class="container">
+        <!-- Section Heading -->
         <div class="row mb-4" data-aos="fade-up">
           <div class="col text-center">
             <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row text-center text-md-start">
-          <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-            <h5>Have any project?</h5>
-            <p>
-              Reach out to discuss your project ideas or for collaboration
-              opportunities.
+            <p class="text-light">
+              Have any project ideas or collaboration opportunities? Let's
+              connect!
             </p>
           </div>
+        </div>
+
+        <!-- Contact Info and Form -->
+        <div class="row text-center text-md-start">
+          <!-- Contact Information -->
+          <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+            <h5>Reach Out</h5>
+            <p class="text-light">
+              Feel free to reach out via the form or contact me directly for
+              inquiries or collaborations.
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa-solid fa-envelope me-2"></i>
+                <a href="mailto:your-email@example.com" class="text-success"
+                  >your-email@example.com</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone me-2"></i>
+                <a href="tel:+1234567890" class="text-success"
+                  >+1 (234) 567-890</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot me-2"></i>
+                <span class="text-light">Your City, Your Country</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Form -->
           <div class="col-md-6" data-aos="fade-left">
             <form>
               <div class="mb-3">
                 <input
                   type="text"
-                  class="form-control"
+                  class="form-control border-success bg-black text-success"
                   placeholder="Name"
                   required />
               </div>
               <div class="mb-3">
                 <input
                   type="email"
-                  class="form-control"
+                  class="form-control border-success bg-black text-success"
                   placeholder="Email"
                   required />
               </div>
               <div class="mb-3">
                 <textarea
-                  class="form-control"
+                  class="form-control border-success bg-black text-success"
                   rows="4"
                   placeholder="Message"
                   required></textarea>
               </div>
-              <button type="submit" class="btn btn-dark">Send</button>
+              <button type="submit" class="btn btn-success w-100">
+                Send Message
+              </button>
             </form>
           </div>
         </div>
