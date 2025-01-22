@@ -145,23 +145,9 @@
       </div>
     </nav>
 
-    <!-- Main Section -->
-    <section class="main-container py-5 bg-black" id="home">
+    <section class="main-container py-5 bg-black text-light" id="home">
       <div class="container">
         <div class="row align-items-center">
-          <!-- Image Section -->
-          <div class="col-md-6 mb-4 mb-md-0" data-aos="zoom-in">
-            <div
-              class="position-relative mx-auto"
-              style="width: 75%; max-width: 300px">
-              <!-- Green Border -->
-              <img
-                src="/img/dennis - Copy.jpg"
-                alt="Ayodeji Dennis"
-                class="img-fluid rounded-circle shadow-lg border border-success border-5" />
-            </div>
-          </div>
-
           <!-- Text Section -->
           <div class="col-md-6" data-aos="fade-left">
             <h1 class="text-success">
@@ -334,27 +320,28 @@
         </div>
 
         <!-- Projects Grid -->
-        <div class="row g-4">
-          <!-- Note App -->
-          <div class="col-md-6 d-flex">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!-- Project Card Template -->
+          <div class="col">
             <a href="note-app.html" class="text-decoration-none">
               <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bm90ZSUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D/200x900"
-                    alt="Note App Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>Note App</h5>
-                    <ul class="mb-0">
-                      <li>End-to-end MERN stack app with TypeScript.</li>
-                      <li>Responsive UI using pure CSS.</li>
-                      <li>Secure CRUD operations with RESTful APIs.</li>
-                    </ul>
+                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img
+                      src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?w=500&auto=format&fit=crop&q=60"
+                      alt="Note App Preview"
+                      class="img-fluid h-100 rounded-start" />
+                  </div>
+                  <div class="col-md-7 d-flex align-items-center">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Note App</h5>
+                      <ul class="mb-0">
+                        <li>End-to-end MERN stack app with TypeScript.</li>
+                        <li>Responsive UI using pure CSS.</li>
+                        <li>Secure CRUD operations with RESTful APIs.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -362,25 +349,26 @@
           </div>
 
           <!-- Movie App -->
-          <div class="col-md-6 d-flex">
+          <div class="col">
             <a href="movie-app.html" class="text-decoration-none">
               <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://images.unsplash.com/photo-1735212769704-d03b95dd1a14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW92aWUlMjBhcHB8ZW58MHx8MHx8fDA%3D/200x900"
-                    alt="Movie App Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>Movie App</h5>
-                    <ul class="mb-0">
-                      <li>Built with React and TypeScript.</li>
-                      <li>Integrated real-time API for movie data.</li>
-                      <li>Dynamic search and display features.</li>
-                    </ul>
+                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img
+                      src="https://images.unsplash.com/photo-1735212769704-d03b95dd1a14?w=500&auto=format&fit=crop&q=60"
+                      alt="Movie App Preview"
+                      class="img-fluid h-100 rounded-start" />
+                  </div>
+                  <div class="col-md-7 d-flex align-items-center">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Movie App</h5>
+                      <ul class="mb-0">
+                        <li>Built with React and TypeScript.</li>
+                        <li>Integrated real-time API for movie data.</li>
+                        <li>Dynamic search and display features.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -388,25 +376,26 @@
           </div>
 
           <!-- Heroes Game App -->
-          <div class="col-md-6 d-flex">
+          <div class="col">
             <a href="heroes-game-app.html" class="text-decoration-none">
               <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://via.placeholder.com/300x300"
-                    alt="Heroes Game App Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>Heroes Game App</h5>
-                    <ul class="mb-0">
-                      <li>Interactive leaderboard with React and TS.</li>
-                      <li>Dynamic rankings to boost engagement.</li>
-                      <li>Enhanced user interaction for games.</li>
-                    </ul>
+                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img
+                      src="https://via.placeholder.com/300x300"
+                      alt="Heroes Game App Preview"
+                      class="img-fluid h-100 rounded-start" />
+                  </div>
+                  <div class="col-md-7 d-flex align-items-center">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Heroes Game App</h5>
+                      <ul class="mb-0">
+                        <li>Interactive leaderboard with React and TS.</li>
+                        <li>Dynamic rankings to boost engagement.</li>
+                        <li>Enhanced user interaction for games.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -414,86 +403,33 @@
           </div>
 
           <!-- E-commerce App -->
-          <div class="col-md-6 d-flex">
+          <div class="col">
             <a href="ecommerce-app.html" class="text-decoration-none">
               <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1683758825237-de2f8946dd91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGUlMjBjb21tZXJjZSUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D/200x900"
-                    alt="E-commerce App Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>E-commerce App</h5>
-                    <ul class="mb-0">
-                      <li>Scalable MERN stack platform with TS.</li>
-                      <li>Modern UI using Bootstrap.</li>
-                      <li>Admin dashboard for management.</li>
-                    </ul>
+                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                    <img
+                      src="https://plus.unsplash.com/premium_photo-1683758825237-de2f8946dd91?w=500&auto=format&fit=crop&q=60"
+                      alt="E-commerce App Preview"
+                      class="img-fluid h-100 rounded-start" />
+                  </div>
+                  <div class="col-md-7 d-flex align-items-center">
+                    <div class="card-body text-success">
+                      <h5 class="card-title">E-commerce App</h5>
+                      <ul class="mb-0">
+                        <li>Scalable MERN stack platform with TS.</li>
+                        <li>Modern UI using Bootstrap.</li>
+                        <li>Admin dashboard for management.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </a>
           </div>
 
-          <!-- Bootcamp Landing Page -->
-          <div class="col-md-6 d-flex">
-            <a
-              href="https://bootcamp-landingpage.netlify.app/"
-              class="text-decoration-none">
-              <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1720746439912-d1329b89beba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Ym9vdGNhbXAlMjBhcHB8ZW58MHx8MHx8fDA%3D/300x200"
-                    alt="Bootcamp Landing Page Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>Bootcamp Landing Page</h5>
-                    <ul class="mb-0">
-                      <li>Responsive design with Bootstrap.</li>
-                      <li>Key features and testimonials highlighted.</li>
-                      <li>Integrated inquiry form for conversions.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Quiz App -->
-          <div class="col-md-6 d-flex">
-            <a
-              href="https://site-quiz-app.netlify.app/"
-              class="text-decoration-none">
-              <div
-                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
-                <div class="col-5">
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1678216285963-253d94232eb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHF1ZXN0aW9uJTIwYXBwfGVufDB8fDB8fHww/200x300"
-                    alt="Quiz App Preview"
-                    class="img-fluid h-100 rounded-start" />
-                </div>
-                <div
-                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
-                  <div>
-                    <h5>Quiz App</h5>
-                    <ul class="mb-0">
-                      <li>Interactive quizzes with real-time scoring.</li>
-                      <li>Clean UI with progress tracking.</li>
-                      <li>Customizable themes for users.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+          <!-- Add more project cards following the same structure -->
         </div>
       </div>
     </section>
