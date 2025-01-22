@@ -7,8 +7,8 @@
 
 .main-container {
   position: relative;
-  background: url("/img/dennis - Copy.jpg") no-repeat center center/cover;
-  color: #fff;
+  color: #32cd32;
+  overflow: hidden; /* Ensure no overflow from pseudo-elements */
 }
 
 .main-container::before {
@@ -18,13 +18,31 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  background: url("/img/dennis - Copy.jpg") no-repeat center center/cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
   z-index: 1;
+}
+
+.main-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 2; /* Above the background image */
+}
+
+.main-container:hover::before {
+  filter: grayscale(0%);
 }
 
 .main-container .container {
   position: relative;
-  z-index: 2;
+  z-index: 3; /* Ensure text appears above both overlay and background */
+  color: inherit; /* Maintain text color */
 }
 
 .social-links a {
@@ -53,6 +71,15 @@
   height: 100%; /* Ensures consistent image height */
 }
 
+.card:hover {
+  transform: scale(1.05); /* Slightly increase size */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.card {
+  transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
 .col-md-6.d-flex {
   display: flex;
   align-items: stretch;
@@ -67,4 +94,25 @@
   background-color: transparent;
   color: #32cd32;
   border: 2px solid #32cd32;
+}
+
+/* Apply grayscale to all images */
+img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Remove grayscale on hover */
+img:hover {
+  filter: grayscale(0%);
+}
+
+/* Specific styling for the About Me image */
+#home img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+#home img:hover {
+  filter: grayscale(0%);
 }

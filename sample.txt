@@ -158,4 +158,185 @@
     </section>
 
 
-    
+
+
+
+
+   <section
+      class="project py-5 bg-black"
+      id="projects"
+      aria-label="View my projects">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="text-success">Projects</h2>
+            <p class="text-light">
+              Explore some of the projects I've worked on, leveraging modern
+              technologies to build impactful solutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="row g-4">
+          <!-- Note App -->
+          <div class="col-md-6 d-flex">
+            <a href="note-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bm90ZSUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D/200x900"
+                    alt="Note App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Note App</h5>
+                    <ul class="mb-0">
+                      <li>End-to-end MERN stack app with TypeScript.</li>
+                      <li>Responsive UI using pure CSS.</li>
+                      <li>Secure CRUD operations with RESTful APIs.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Movie App -->
+          <div class="col-md-6 d-flex">
+            <a href="movie-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://images.unsplash.com/photo-1735212769704-d03b95dd1a14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW92aWUlMjBhcHB8ZW58MHx8MHx8fDA%3D/200x900"
+                    alt="Movie App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Movie App</h5>
+                    <ul class="mb-0">
+                      <li>Built with React and TypeScript.</li>
+                      <li>Integrated real-time API for movie data.</li>
+                      <li>Dynamic search and display features.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Heroes Game App -->
+          <div class="col-md-6 d-flex">
+            <a href="heroes-game-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Heroes Game App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Heroes Game App</h5>
+                    <ul class="mb-0">
+                      <li>Interactive leaderboard with React and TS.</li>
+                      <li>Dynamic rankings to boost engagement.</li>
+                      <li>Enhanced user interaction for games.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- E-commerce App -->
+          <div class="col-md-6 d-flex">
+            <a href="ecommerce-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1683758825237-de2f8946dd91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGUlMjBjb21tZXJjZSUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D/200x900"
+                    alt="E-commerce App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>E-commerce App</h5>
+                    <ul class="mb-0">
+                      <li>Scalable MERN stack platform with TS.</li>
+                      <li>Modern UI using Bootstrap.</li>
+                      <li>Admin dashboard for management.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Bootcamp Landing Page -->
+          <div class="col-md-6 d-flex">
+            <a
+              href="https://bootcamp-landingpage.netlify.app/"
+              class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://via.placeholder.com/300x300"
+                    alt="Bootcamp Landing Page Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Bootcamp Landing Page</h5>
+                    <ul class="mb-0">
+                      <li>Responsive design with Bootstrap.</li>
+                      <li>Key features and testimonials highlighted.</li>
+                      <li>Integrated inquiry form for conversions.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Quiz App -->
+          <div class="col-md-6 d-flex">
+            <a href="quiz-app.html" class="text-decoration-none">
+              <div
+                class="row g-1 border border-success rounded shadow-sm project-box hover-effect w-100">
+                <div class="col-5">
+                  <img
+                    src="https://img.freepik.com/free-vector/web-questions-help-support-page-design_1017-26766.jpg?uid=R184024192&ga=GA1.1.1900077938.1737512940&semt=ais_hybrid"
+                    alt="Quiz App Preview"
+                    class="img-fluid h-100 rounded-start" />
+                </div>
+                <div
+                  class="col-7 bg-dark text-success p-3 d-flex align-items-center">
+                  <div>
+                    <h5>Quiz App</h5>
+                    <ul class="mb-0">
+                      <li>Interactive quizzes with real-time scoring.</li>
+                      <li>Clean UI with progress tracking.</li>
+                      <li>Customizable themes for users.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>  
