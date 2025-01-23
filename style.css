@@ -72,7 +72,7 @@
 
 .project-box img {
   object-fit: cover;
-  height: 100%; /* Ensures consistent image height */
+  /* height: 100%; */ /* Removed to prevent stretching */
 }
 
 /* Card hover effects */
