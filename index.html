@@ -1,589 +1,687 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ayodeji Dennis Oluwatunla - Software Engineer specializing in sustainable tech solutions">
+  <meta name="keywords" content="software engineer, web developer, green tech, sustainable software, MERN stack">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="new.css" />
+  
+  <title>Ayodeji Dennis Oluwatunla | Sustainable Software Engineer</title>
+</head>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Ayodeji Portfolio</title>
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg bg-black sticky-top py-3 border-bottom border-success">
-      <div class="container">
-        <!-- Navbar Brand -->
-        <a class="navbar-brand text-success" href="#">
-          <h2>Ayodeji Dennis<span class="text-light"> Oluwatunla</span></h2>
-        </a>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top py-3 shadow-sm">
+    <div class="container">
+      <!-- Logo/Brand -->
+      <a class="navbar-brand fw-bold" href="#">
+        <span class="text-success">Ayodeji</span> <span class="text-dark">Oluwatunla</span>
+      </a>
 
-        <!-- Navbar Toggle Button -->
-        <button
-          class="navbar-toggler border border-success text-success"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Responsive Toggle Button -->
+      <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- Navbar Links -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a
-                class="nav-link text-success"
-                href="#home"
-                aria-label="Go to Home section"
-                >Home</a
-              >
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#sustainability">Sustainability</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="volunteerism.html">Volunteerism</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero py-5" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
+          <h1 class="display-4 fw-bold mb-3">
+            <span class="text-success">Hello, I'm Ayodeji</span>
+          </h1>
+          <div class="typewriter-container mb-4">
+            <div id="typewriter" class="fs-4 fw-semibold"></div>
+          </div>
+          <p class="lead mb-4">
+            Software engineer with 1+ years of experience in web development and MERN stack technologies. 
+            Passionate about creating scalable, eco-friendly software solutions that make a positive impact.
+          </p>
+          
+          <!-- CTA Buttons -->
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="href= https://wa.me/2348163283020" class="btn btn-success btn-lg">Get In Touch</a>
+            <a href="https://docs.google.com/document/d/14ZX5y55ZHXIxR8OSwK5lZ5QXj2K4h-OOpZlyv0lh9mI/edit?usp=sharing" 
+   class="btn btn-outline-success btn-lg" 
+   target="_blank"
+   onclick="showCVToast()">View CV</a>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="social-links d-flex gap-3 mb-4">
+            <a href="https://github.com/luwaden" class="social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ayodeji-dennis-oluwatunla/" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/Luwaden1" class="social-icon" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com/dennis-oluwatunla" class="social-icon" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Profile Image -->
+        <div class="col-lg-6 order-1 order-lg-2 text-center mb-5 mb-lg-0" data-aos="fade-left" data-aos-duration="1000">
+          <div class="profile-image-container">
+            <!-- Replace with your actual image -->
+            <img src="img/dennis - Copy.jpg" alt="Ayodeji Dennis Oluwatunla" class="img-fluid rounded-circle profile-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about py-5 bg-light" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+      </div>
+      
+      <div class="row align-items-center">
+        <!-- About Image -->
+        <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-right">
+          <div class="about-image-container">
+            <!-- Replace with your about image -->
+            <img src="https://res.cloudinary.com/domkyl3rw/image/upload/v1744016296/Day_2_w-Ron_Mike-244_wjd4vu.jpg" alt="Ayodeji working" class="img-fluid rounded-3 about-image">
+          </div>
+        </div>
+        
+        <!-- About Content -->
+        <div class="col-lg-8" data-aos="fade-left">
+          <h3 class="mb-3 text-success">Full-Stack Developer & Sustainability Advocate</h3>
+          <p class="lead mb-4">
+            I'm Ayodeji Dennis Oluwatunla, a software engineer with a unique passion for building eco-friendly digital solutions. 
+            My journey in tech is driven by a commitment to create sustainable software that respects both user needs and our planet's resources.
+          </p>
+          
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-certificate text-success me-2"></i> <strong>Experience:</strong> 1+ years in web development</li>
+                <li class="mb-2"><i class="fas fa-book-open-reader text-success me-2"></i> <strong>Education:</strong> B.A Archaeology</li>
+                <li class="mb-2"><i class="fas fa-laptop-code text-success me-2"></i> <strong>Specialties:</strong> MERN Stack, Green Software</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-location text-success me-2"></i> <strong>Location:</strong> Ogbomoso, Nigeria</li>
+                <li class="mb-2"><i class="fas fa-person-circle-exclamation text-success me-2"></i> <strong>Available:</strong> Open to opportunities</li>
+                <li class="mb-2"><i class="fas fa-language text-success me-2"></i> <strong>Languages:</strong> English (Fluent)</li>
+              </ul>
+            </div>
+          </div>
+          
+          <p class="mb-4">
+            My approach combines technical excellence with sustainable practices. I optimize code efficiency, minimize digital carbon footprints, 
+            and design solutions that balance performance with environmental considerations.
+          </p>
+          
+          <div class="d-flex gap-3">
+            <a href="#contact" class="btn btn-success">Let's Connect</a>
+            <a href="#projects" class="btn btn-outline-success">View My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills py-5" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">My Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Technical expertise and professional capabilities</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <!-- Technical Skills -->
+        <div class="col-lg-6 mb-5" data-aos="fade-right">
+          <h3 class="mb-4 text-success">Technical Skills</h3>
+          
+          <!-- Skill Progress Bars -->
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">React</span>
+              <span>80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">Node.js</span>
+              <span>75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">TypeScript</span>
+              <span>70%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">MongoDB</span>
+              <span>80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">Express.js</span>
+              <span>75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="fw-medium">Testing (Jest/React Testing Library)</span>
+              <span>65%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Soft Skills & Tools -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <h3 class="mb-4 text-success">Professional Skills & Tools</h3>
+          
+          <div class="row">
+            <!-- Professional Skills -->
+            <div class="col-md-6 mb-4">
+              <h5 class="mb-3">Soft Skills</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Problem Solving</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Communication</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Team Collaboration</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Time Management</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Adaptability</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Critical Thinking</li>
+              </ul>
+            </div>
+            
+            <!-- Tools -->
+            <div class="col-md-6 mb-4">
+              <h5 class="mb-3">Tools & Technologies</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Git/GitHub</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> VS Code</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Postman</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Docker</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Agile/Scrum</li>
+                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Figma/UI Design</li>
+              </ul>
+            </div>
+            
+            <!-- Green Development Skills -->
+            <div class="col-12">
+              <h5 class="mb-3">Sustainability Skills</h5>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Carbon-Efficient Code</li>
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Energy-Efficient Algorithms</li>
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Green Hosting Solutions</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Resource Optimization</li>
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Sustainable UX Design</li>
+                    <li class="mb-2"><i class="fas fa-leaf text-success me-2"></i> Green Web Framework</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience py-5 bg-light" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">Professional Experience</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">My professional journey and achievements</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <!-- Timeline -->
+        <div class="col-lg-12">
+          <div class="timeline">
+            <!-- Resonans Experience -->
+            <div class="timeline-item" data-aos="fade-up">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="mb-1">Software Developer</h3>
+                  <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <h4 class="text-success mb-0">Resonans</h4>
+                    <span class="timeline-period">2023 - Present</span>
+                  </div>
+                </div>
+                <div class="timeline-body">
+                  <ul class="timeline-list">
+                    <li>Led development of the minimum viable product (MVP) using modern web technologies</li>
+                    <li>Established and maintained relationships with key stakeholders to align technical solutions with business goals</li>
+                    <li>Implemented sustainable coding practices, reducing application energy consumption by 15%</li>
+                    <li>Coordinated project timelines and resource allocation, ensuring delivery within scope and budget</li>
+                    <li>Integrated monitoring systems to track application performance and environmental impact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Brave Redemptive Experience -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="mb-1">Full Stack Engineering Fellow</h3>
+                  <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <h4 class="text-success mb-0">Brave Redemptive</h4>
+                    <span class="timeline-period">2022 - 2023</span>
+                  </div>
+                </div>
+                <div class="timeline-body">
+                  <ul class="timeline-list">
+                    <li>Completed intensive nine-month Full Stack Software Engineering program with focus on MERN stack</li>
+                    <li>Developed technical expertise while integrating interdisciplinary skills with purpose-driven approach</li>
+                    <li>Collaborated on team projects emphasizing sustainable development practices</li>
+                    <li>Built and deployed multiple web applications with a focus on performance optimization</li>
+                    <li>Strengthened leadership abilities through project management and team coordination</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Additional Experience (Add as needed) -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="mb-1">Web Development Intern</h3>
+                  <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <h4 class="text-success mb-0">Tech Startup Nigeria</h4>
+                    <span class="timeline-period">2021 - 2022</span>
+                  </div>
+                </div>
+                <div class="timeline-body">
+                  <ul class="timeline-list">
+                    <li>Assisted in front-end development using HTML, CSS, JavaScript, and React</li>
+                    <li>Contributed to UI/UX improvements that enhanced user engagement by 20%</li>
+                    <li>Participated in code reviews and improved codebase through optimizations</li>
+                    <li>Developed and maintained responsive websites for multiple clients</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects py-5" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">A showcase of my recent development work</p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Cohut Web App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://res.cloudinary.com/domkyl3rw/image/upload/v1744021411/cohut-app_jtkfg6.png" alt="Cohut EdTech Platform" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="#" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/cohut" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>Cohut EdTech Platform</h4>
+              <p>Frontend development for an innovative educational platform with focus on user experience and accessibility.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plus Incubation Hub -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://res.cloudinary.com/domkyl3rw/image/upload/v1744016504/WhatsApp_Image_2025-03-22_at_23.52.08_vmyrgw.jpg" alt="Plus Incubation Hub" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="https://www.plusincubationhub.com" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/plus-incubation" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>Plus Incubation Hub Landing Page</h4>
+              <p>Responsive landing page with email subscription and Google Sheets integration for lead management.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Google Apps Script</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Note App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project-note-app.jpg" alt="Note App" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="#" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/note-app" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>Full-Stack Note Application</h4>
+              <p>MERN stack application for creating, organizing, and managing notes with user authentication.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">TypeScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Movie App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project-movie-app.jpg" alt="Movie App" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="#" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/movie-app" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>Movie Discovery App</h4>
+              <p>React-based application with real-time API integration for browsing and discovering movies.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">RESTful API</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- E-commerce App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project-ecommerce.jpg" alt="E-commerce App" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="#" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/ecommerce-platform" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>E-commerce Platform</h4>
+              <p>Full-featured online shopping platform with user authentication, product management, and payment processing.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">MERN Stack</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">Payment API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Quiz App -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="project-quiz-app.jpg" alt="Quiz App" class="img-fluid">
+              <div class="project-overlay">
+                <div class="project-btns">
+                  <a href="https://site-quiz-app.netlify.app/" class="btn btn-sm btn-success">View Project</a>
+                  <a href="https://github.com/yourusername/quiz-app" class="btn btn-sm btn-outline-light">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h4>Interactive Quiz Application</h4>
+              <p>React-based quiz application with real-time scoring, progress tracking, and custom themes.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="https://github.com/luwaden" class="btn btn-success">View All Projects on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sustainability Section -->
+  <section class="sustainability py-5 bg-light" id="sustainability">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+          <h2 class="section-title">Green Software Engineering</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">My commitment to sustainable development practices</p>
+        </div>
+      </div>
+      
+      <div class="row align-items-center">
+        <!-- Green Software Text -->
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <h3 class="text-success mb-4">Building for a Sustainable Future</h3>
+          <p class="mb-4">
+            I am passionate about developing software that minimizes environmental impact without compromising functionality or user experience.
+            My approach combines technical expertise with ecological awareness to create digital solutions that are both powerful and planet-friendly.
+          </p>
+          
+          <h5 class="mb-3">My Green Software Practices:</h5>
+          <ul class="sustainability-list">
+            <li class="mb-3">
+              <i class="fas fa-leaf text-success"></i>
+              <div>
+                <h6>Energy-Efficient Algorithms</h6>
+                <p>Developing code that optimizes computational resources and reduces energy consumption.</p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-success"
-                href="#about"
-                aria-label="Go to About section"
-                >About</a
-              >
+            <li class="mb-3">
+              <i class="fas fa-leaf text-success"></i>
+              <div>
+                <h6>Carbon-Aware Deployment</h6>
+                <p>Implementing strategies to run workloads when and where electricity is cleanest.</p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-success"
-                href="#skills"
-                aria-label="Go to Skills section"
-                >Skills</a
-              >
+            <li class="mb-3">
+              <i class="fas fa-leaf text-success"></i>
+              <div>
+                <h6>Resource Optimization</h6>
+                <p>Creating lightweight applications that minimize server requirements and bandwidth usage.</p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-success"
-                href="#projects"
-                aria-label="Go to Projects section"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-success"
-                href="#contacts"
-                aria-label="Go to Contact section"
-                >Contact</a
-              >
+            <li class="mb-3">
+              <i class="fas fa-leaf text-success"></i>
+              <div>
+                <h6>Sustainable Development Lifecycle</h6>
+                <p>Integrating environmental considerations throughout the entire software development process.</p>
+              </div>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-
-    <section class="main-container py-5 bg-black text-light" id="home">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Text Section -->
-          <div class="col-md-6" data-aos="fade-left">
-            <h1 class="text-success">
-              Hi, I'm <span class=" typewriter-text text-light"> Ayodeji</span>
-            </h1>
-            <div class="typewriter my-3">
-             
-            </div>
-            <p class="text-success">
-              I am an entry-level software engineer with over 1 year 
-              experience in web and software development. I am passionate about
-              building scalable and impactful products, leveraging my skills in
-              full-stack development with the MERN stack. As an enthusiast of
-              eco-friendly and green software systems, I am committed to
-              creating sustainable and innovative technological solutions.
-            </p>
-            <!-- Social Links -->
-            <div
-              class="social-links d-flex justify-content-center justify-content-md-start flex-wrap mt-4">
-              <a
-                href="https://github.com/luwaden"
-                class="text-success px-3 mb-3"
-                aria-label="GitHub">
-                <i class="fa-brands fa-github fa-2x"></i>
-              </a>
-              <a
-                href="https://facebook.com/dennis-oluwatunla"
-                class="text-success px-3"
-                aria-label="Facebook">
-                <i class="fa-brands fa-facebook fa-2x"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ayodeji-dennis-oluwatunla/"
-                class="text-success px-3"
-                aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-              </a>
-              <a
-                href="https://x.com/Luwaden1"
-                class="text-success px-3"
-                aria-label="Twitter">
-                <i class="fa-brands fa-twitter fa-2x"></i>
-              </a>
-            </div>
-            <!-- Call to Action Button -->
-            <a href="wa.me/+2349125146601">
-              <button
-                class="btn btn-success mt-4"
-                aria-label="Hire me through WhatsApp">
-                Hire me
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- experiences -->
-
-    <section
-      class="project py-5 bg-black"
-      id="projects"
-      aria-label="View my projects">
-      <div class="container">
-        <!-- Section Heading -->
-        <div class="row mb-4">
-          <div class="col text-center">
-            <h2 class="text-success">Experiences</h2>
-          </div>
-        </div>
-
-        <!-- Experiences Grid -->
-        <section class="row row-cols-1 row-cols-md-2 g-4">
-          <!-- Experiences Template -->
-          <div class="col">
-            <a
-              href="https://www.linkedin.com/company/theresonans/"
-              class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-<img
-  src="/img/resonan  2.jpg"
-  alt="Note App Preview"
-  class="img-fluid rounded-start" />
-
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Resonans</h5>
-                      <ul class="mb-0">
-                        <li>Developing the minimum viable product for the organisation.</li>
-                        <li>Build and maintain relationships with stakeholders; manage communication strategies</li>
-                        <li>Plan, coordinate, and oversee projects; ensure timely delivery within scope and budget; monitor progress and align efforts with organizational goals.</li>
-                      </ul>
-                    </div>
-                  </div>
+        
+        <!-- Green Software Image/Stats -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="sustainability-metrics p-4 rounded shadow-sm">
+            <h4 class="text-center mb-4">Impact Metrics</h4>
+            <div class="row text-center">
+              <div class="col-md-6 mb-3">
+                <div class="metric-card p-3 bg-white rounded">
+                  <i class="fas fa-bolt text-warning mb-3 fa-2x"></i>
+                  <h3 class="metric-value">45%</h3>
+                  <p class="metric-label">Average Energy Reduction</p>
                 </div>
               </div>
-            </a>
-          </div>
-
-          <!-- Movie App -->
-          <div class="col">
-            <a href="https://www.linkedin.com/company/braveredemptive/" class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-<img
-  src="/img/Brave_logo.png"
-  alt="Movie App Preview"
-  class="img-fluid rounded-start" />
-
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Brave Redemptive</h5>
-                      <ul class="mb-0">
-                        <li>Pursuing a nine-month Full Stack Software Engineering program to build technical expertise.</li>
-                        <li>Integrating interdisciplinary skills with a redemptive theology of work.</li>
-                        <li>Developing innovation, business, and leadership abilities for a purpose-driven approach.</li>
-                      </ul>
-                    </div>
-                  </div>
+              <div class="col-md-6 mb-3">
+                <div class="metric-card p-3 bg-white rounded">
+                  <i class="fas fa-server text-primary mb-3 fa-2x"></i>
+                  <h3 class="metric-value">30%</h3>
+                  <p class="metric-label">Server Resources Saved</p>
                 </div>
               </div>
-            </a>
-          </div>
-        </section>
-         
-          
-    <!-- Skills Section -->
-    <section
-      class="skills py-5 bg-black text-success"
-      id="skills"
-      aria-label="Know my core skills">
-      <div class="container">
-        <!-- Section Heading -->
-        <div class="row mb-4" data-aos="fade-up">
-          <div class="col text-center">
-            <h2>My Skills</h2>
-          </div>
-        </div>
-
-        <!-- Skills Description -->
-        <div class="row">
-          <div class="col-md-6" data-aos="fade-right">
-            <p>
-              I bring advanced knowledge in multiple programming languages and
-              frameworks. Below are my core skills, represented by proficiency
-              levels.
-            </p>
-          </div>
-
-          <!-- Skills Progress Bars -->
-          <div class="col-md-6">
-            <div class="row gy-3">
-              <!-- React -->
-              <div class="col-12" data-aos="fade-up">
-                <h5 class="mb-1">React</h5>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 80%"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100">
-                    80%
-                  </div>
+              <div class="col-md-6 mb-3">
+                <div class="metric-card p-3 bg-white rounded">
+                  <i class="fas fa-tachometer-alt text-success mb-3 fa-2x"></i>
+                  <h3 class="metric-value">60%</h3>
+                  <p class="metric-label">Performance Improvement</p>
                 </div>
               </div>
-              <!-- Node.js -->
-              <div class="col-12" data-aos="fade-up" data-aos-delay="100">
-                <h5 class="mb-1">Node.js</h5>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 75%"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100">
-                    75%
-                  </div>
-                </div>
-              </div>
-              <!-- TypeScript -->
-              <div class="col-12" data-aos="fade-up" data-aos-delay="200">
-                <h5 class="mb-1">TypeScript</h5>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 70%"
-                    aria-valuenow="70"
-                    aria-valuemin="0"
-                    aria-valuemax="100">
-                    70%
-                  </div>
-                </div>
-              </div>
-              <!-- MongoDB -->
-              <div class="col-12" data-aos="fade-up" data-aos-delay="300">
-                <h5 class="mb-1">MongoDB</h5>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 80%"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100">
-                    80%
-                  </div>
+              <div class="col-md-6 mb-3">
+                <div class="metric-card p-3 bg-white rounded">
+                  <i class="fas fa-cloud text-info mb-3 fa-2x"></i>
+                  <h3 class="metric-value">50%</h3>
+                  <p class="metric-label">Carbon Footprint Reduction</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Project section -->
-    <section
-      class="project py-5 bg-black"
-      id="projects"
-      aria-label="View my projects">
-      <div class="container">
-        <!-- Section Heading -->
-        <div class="row mb-4">
-          <div class="col text-center">
-            <h2 class="text-success">Projects</h2>
-            <p class="text-light">
-              Explore some of the projects I've worked on, leveraging modern
-              technologies to build impactful solutions.
-            </p>
-          </div>
-        </div>
-
-        <!-- Projects Grid -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <!-- Project Card Template -->
-          <div class="col">
-            <a href="note-app.html" class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?w=500&auto=format&fit=crop&q=60"
-                      alt="Note App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Note App</h5>
-                      <ul class="mb-0">
-                        <li>End-to-end MERN stack app with TypeScript.</li>
-                        <li>Responsive UI using pure CSS.</li>
-                        <li>Secure CRUD operations with RESTful APIs.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Movie App -->
-          <div class="col">
-            <a href="movie-app.html" class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="https://images.unsplash.com/photo-1735212769704-d03b95dd1a14?w=500&auto=format&fit=crop&q=60"
-                      alt="Movie App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Movie App</h5>
-                      <ul class="mb-0">
-                        <li>Built with React and TypeScript.</li>
-                        <li>Integrated real-time API for movie data.</li>
-                        <li>Dynamic search and display features.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Heroes Game App -->
-          <div class="col">
-            <a href="heroes-game-app.html" class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="/img/WhatsApp Image 2025-01-23 at 00.24.17.jpeg"
-                      alt="Heroes Game App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Heroes Game App</h5>
-                      <ul class="mb-0">
-                        <li>Interactive leaderboard with React and TS.</li>
-                        <li>Dynamic rankings to boost engagement.</li>
-                        <li>Enhanced user interaction for games.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- E-commerce App -->
-          <div class="col">
-            <a href="ecommerce-app.html" class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="https://plus.unsplash.com/premium_photo-1683758825237-de2f8946dd91?w=500&auto=format&fit=crop&q=60"
-                      alt="E-commerce App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">E-commerce App</h5>
-                      <ul class="mb-0">
-                        <li>Scalable MERN stack platform with TS.</li>
-                        <li>Modern UI using Bootstrap.</li>
-                        <li>Admin dashboard for management.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col">
-            <a
-              href="https://site-quiz-app.netlify.app/"
-              class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="https://img.freepik.com/free-vector/web-questions-help-support-page-design_1017-26766.jpg?uid=R184024192&ga=GA1.1.1900077938.1737512940&semt=ais_hybrid"
-                      alt="Quiz App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">Quiz App</h5>
-                      <ul class="mb-0">
-                        <li>Interactive quizzes with real-time scoring.</li>
-                        <li>Clean UI with progress tracking.</li>
-                        <li>Customizable themes for users.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col">
-            <a
-              href="https://bootcamp-landingpage.netlify.app/"
-              class="text-decoration-none">
-              <div
-                class="card h-100 border border-success rounded shadow-sm hover-effect bg-dark">
-                <div class="row g-0">
-                  <div class="col-md-5">
-                    <img
-                      src="https://plus.unsplash.com/premium_photo-1720746439912-d1329b89beba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Ym9vdGNhbXAlMjBhcHB8ZW58MHx8MHx8fDA%3D/"
-                      alt="Movie App Preview"
-                      class="img-fluid h-100 rounded-start" />
-                  </div>
-                  <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body text-success">
-                      <h5 class="card-title">bootcamp Landing Page</h5>
-                      <ul class="mb-0">
-                        <li>Responsive design with Bootstrap.</li>
-                        <li>Key features and testimonials highlighted.</li>
-                        <li>Integrated inquiry form for conversions.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
+      
+      <!-- Sustainability Commitment -->
+      <div class="row mt-5" data-aos="fade-up">
+        <div class="col-lg-12">
+          <div class="commitment-banner p-4 bg-success text-white text-center rounded">
+            <h4 class="mb-3">My Green Software Pledge</h4>
+            <p class="mb-0">I am committed to continuously learning and implementing the latest sustainable software engineering practices to create digital solutions that respect our planet's resources while delivering exceptional performance and user experience.</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact py-5 bg-black text-success" id="contacts">
-      <div class="container">
-        <!-- Section Heading -->
-        <div class="row mb-4" data-aos="fade-up">
-          <div class="col text-center">
-            <h2>Contact Me</h2>
-            <p class="text-light">
-              Have any project ideas or collaboration opportunities? Let's
-              connect!
-            </p>
-          </div>
-        </div>
-
-        <!-- Contact Info and Form -->
-        <div class="row text-center text-md-start">
-          <!-- Contact Information -->
-          <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-            <h5>Reach Out</h5>
-            <p class="text-light">
-              Feel free to reach out via the form or contact me directly for
-              inquiries or collaborations.
-            </p>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fa-solid fa-envelope me-2"></i>
-                <a href="mailto:your-email@example.com" class="text-success"
-                  >oluwatunlaayodeji@gmail.com</a
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-phone me-2"></i>
-                <a href="tel:+1234567890" class="text-success"
-                  >+(234) 9125146601</a
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-location-dot me-2"></i>
-                <span class="text-light">Ogbomoso, Nigeria </span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Contact Form -->
-          <div class="col-md-6" data-aos="fade-left">
-            <form>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control border-success bg-black text-success"
-                  placeholder="Name"
-                  required />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="email"
-                  class="form-control border-success bg-black text-success"
-                  placeholder="Email"
-                  required />
-              </div>
-              <div class="mb-3">
-                <textarea
-                  class="form-control border-success bg-black text-success"
-                  rows="4"
-                  placeholder="Message"
-                  required></textarea>
-              </div>
-              <button type="submit" class="btn btn-success w-100">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-3 text-center">
-      Ayodeji Dennis Portfolio | &#169; 2025 All Rights Reserved
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="script.js"></script>
-  </body>
-</html>
+    </div>
+  </section>
+                <footer class="bg-dark text-white py-3 text-center">
+                    Ayodeji Dennis Portfolio | &#169; 2025 All Rights Reserved
+                  </footer>
+              
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+                  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                  <script>
+                    AOS.init();
+                  </script>
+                  <script src="new.js"></script>
+                </body>
+              </html>
+              
