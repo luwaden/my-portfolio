@@ -18,6 +18,10 @@
     --transition: all 0.3s ease;
   }
   
+
+  html, body {
+    overflow-x: hidden;
+  }
   /* Base Styles */
   body {
     font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
